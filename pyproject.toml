@@ -1,0 +1,8 @@
+[project]
+name = "on-top-20260409"
+version = "0.1.0"
+description = "On-Top Streamlit hiring trend dashboard"
+requires-python = ">=3.11"
+
+[project.scripts]
+app = "main:main"
