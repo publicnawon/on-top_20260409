@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: on-top-20260409
+    env: python
+    plan: free
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: streamlit run app.py --server.address=0.0.0.0 --server.port=$PORT --server.headless=true
+    autoDeploy: true
